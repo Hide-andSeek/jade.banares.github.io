@@ -168,14 +168,8 @@ h4 {
   .content{
     display: flex;
   }
-  .main-content{
-    margin: 0 0 0 120px;
-  }
-  .main-content > p{
-    margin-bottom: 30px;
-  }
   .main-content > h1{
-    font-size: 70px;
+    font-size: 50px;
     color: var(--almost-black);
   }
 

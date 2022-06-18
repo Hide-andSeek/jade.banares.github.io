@@ -1,7 +1,8 @@
 .main-content{
     /* Top Right Bottom Left */
-    padding: 80px 30px 50px 50px;
-
+    padding: 200px 110px 110px 110px;
+    margin: 0 auto;
+    text-align: center;
 }
 .main-content > h1 {
     font-weight: 700;
@@ -9,11 +10,13 @@
 }
 .main-content > p {
     font-weight: 500;
+    font-size: 18px;
+    margin: 10px 0 0 0;
 }
 
 .desktop-img-desktop{
     margin: 0 0 0 80px;
-    width: 60%; /*485*/
+    width: 90%; /*485*/
     height: auto ; /* 93% */
     box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 0.4);
 
@@ -26,7 +29,7 @@
     width: 100%;
     max-width: 1180px;
     margin: 0 auto;
-    padding-bottom: 80px;
+
   }
   
   .grid p{
@@ -74,9 +77,6 @@
     opacity: 0.6;
   }
 
-  .header-section{
-      margin: 30px 0 70px 0;
-  }
 
   .main-content .fa{
     font-size: 28px;
@@ -91,6 +91,13 @@
     width: 85%;
     height: 70%;
     margin-bottom: 20px;
+    z-index: 1;
   }
 
- 
+ .project-description{
+  justify-content: center;
+  align-items: center;
+ }
+ .project-description ul{
+  padding: 50px;
+ }

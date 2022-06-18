@@ -5,7 +5,7 @@
 
 :root{
     --almost-white: hsl(0, 0%, 98%);
-    --medium-gray: hsl(0, 0%, 41%);
+    --medium-gray: #230944;
     --almost-black: hsl(0, 0%, 8%);
     --font-family: 'Epilogue', sans-serif;
     --font-size: 0.875rem; /* 14px */
