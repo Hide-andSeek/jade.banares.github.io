@@ -111,10 +111,16 @@ h4 {
   .grid{
     padding-bottom: 80px;
   }
+  .grid p{
+    width: 100%;
+  }
 
   .project-title{
     font-size: large;
     background-color: white;
+  }
+  .project-second-image{
+    display: none;
   }
 }
 
@@ -143,17 +149,9 @@ h4 {
   .main-content:nth-child(2){
     text-align: center;
   }
-  a.btn-learn-more{
-    padding: 12px 20px;
-    background-color: var(--almost-black);
-    color: var(--almost-white);
-    border-radius: 10px;
-    border: none;
-  }
-  a.btn-learn-more:hover{
-    background: var(--almost-white);
-    border: 1px solid var(--almost-black);
-    color: var(--almost-black);
+
+  .main-content a{
+    display: block;
   }
 }
 
