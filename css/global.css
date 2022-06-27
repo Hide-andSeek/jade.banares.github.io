@@ -92,8 +92,7 @@ h4 {
     align-items: center;
   }
   .desktop-img{
-    width: 85%;
-    height: 95%;
+    width: 100%;
   }
 
   .main-content > h1{
@@ -102,10 +101,6 @@ h4 {
   }
   .main-content:nth-child(2){
     text-align: center;
-  }
-
-  #video{
-    width: 100%;
   }
 
   .grid{
@@ -166,13 +161,6 @@ h4 {
   .main-content > h1{
     font-size: 55px;
     color: var(--almost-black);
-  }
-
-  #video{
-    width: 100%;
-    height: 70%;
-    margin-bottom: 20px;
-    padding-bottom: 50px;
   }
   
 }
