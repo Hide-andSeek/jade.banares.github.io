@@ -122,7 +122,9 @@ h4 {
   .project-second-image{
     display: none;
   }
-  
+  .main-content span{
+    display: none;
+  }
 }
 
 @media screen and (max-width: 992px) {
