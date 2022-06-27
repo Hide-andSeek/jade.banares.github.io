@@ -104,6 +104,10 @@ h4 {
     text-align: center;
   }
 
+  #video{
+    width: 100%;
+  }
+
   .grid{
     padding-bottom: 80px;
   }
@@ -120,40 +124,7 @@ h4 {
   }
 }
 
-/* Small Device: Mobile */
-
-
-@media screen and (min-width: 769px) {
-  .hide-for-mobile{
-    display: none;
-  }
-  .snap-bgimage, .figma-project{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .desktop-img{
-    width: 85%;
-    height: 95%;
-  }
-  
-  .client-logos > img{
-    position: relative;
-    height: 19px;
-    margin: 0 20px 20px 20px;
-  }
-  .main-content > h1{
-    font-size: 35px;
-    color: var(--almost-black);
-  }
-  .main-content:nth-child(2){
-    text-align: center;
-  }
-
-}
-
-@media screen and (min-width: 769px) and (max-width: 1023px) {
+@media screen and (max-width: 992px) {
   .hide-for-mobile{
     display: none;
   }
@@ -179,7 +150,9 @@ h4 {
     text-align: center;
   }
 
-
+  .main-content a{
+    display: block;
+  }
 }
 
 /* Hide for Desktop */
@@ -194,6 +167,14 @@ h4 {
     font-size: 55px;
     color: var(--almost-black);
   }
+
+  #video{
+    width: 100%;
+    height: 70%;
+    margin-bottom: 20px;
+    padding-bottom: 50px;
+  }
+  
 }
 .attribution{
   padding: 50px;
