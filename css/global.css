@@ -128,7 +128,7 @@ h4 {
   .hide-for-mobile{
     display: none;
   }
-  .snap-bgimage{
+  .snap-bgimage, .figma-project{
     display: flex;
     justify-content: center;
     align-items: center;
