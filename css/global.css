@@ -133,6 +133,11 @@ h4 {
     align-items: center;
   }
 
+  .desktop-img{
+    width: 85%;
+    height: 95%;
+  }
+  
   .client-logos > img{
     position: relative;
     height: 19px;
@@ -158,7 +163,7 @@ h4 {
     align-items: center;
   }
   .desktop-img, #projects img{
-    width: 100%;
+    width: 85%;
     height: 95%;
   }
   .client-logos > img{
