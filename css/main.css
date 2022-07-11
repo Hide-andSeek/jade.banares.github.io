@@ -99,7 +99,7 @@
     background-color: black;
     color: white;
     border-radius: 30px;
-    transition: 0.5s;
+    transition: 0.9s;
   }
   .link a:hover{
     border: 2px solid black;
